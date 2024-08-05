@@ -134,7 +134,7 @@ export default function Home() {
   return (
     <main className="flex flex-col mx-auto min-h-screen items-center justify-center max-w-4xl">
       <div className="border rounded-lg px-8 py-6 my-8">
-        You've bought <span className="font-bold">{peopleCount} Individual Tickets</span>
+        You&apos;ve bought <span className="font-bold">{peopleCount} Individual Tickets</span>
       </div>
       {people.map((x, i) => PersonForm(i))}
     </main>
